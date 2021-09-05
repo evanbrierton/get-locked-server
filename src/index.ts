@@ -8,7 +8,7 @@ import {
 import Room from "./Room.ts";
 import EventType from "./EventType.ts";
 
-const port = +Deno.args[0] || 8080;
+const port = +(Deno.env.get('PORT') || 8080);
 const server = serve({ port });
 const sockets = new Map<string, WebSocket>();
 const rooms = new Map<string, Room>();
