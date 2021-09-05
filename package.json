@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  },
+  "name": "get-locked-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "author": "Evan Brierton",
+  "license": "MIT",
+  "scripts": {
+    "start": "deno run --allow-net --allow-read --watch src/index.ts"
+  }
+}
