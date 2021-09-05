@@ -67,5 +67,5 @@ for await (const req of server) {
   const { conn, r: bufReader, w: bufWriter, headers } = req;
   acceptWebSocket({ conn, bufReader, bufWriter, headers }).then(
     handleConnection,
-  );
+  ).catch((e) => console.error(e));
 }
