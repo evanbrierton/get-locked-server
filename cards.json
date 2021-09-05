@@ -22,7 +22,7 @@
     "Play back to back with $TARGET",
     "Thumb war with $TARGET loser drinks"
   ],
-  "Emma": [
+  "Standard": [
     "Compliment $TARGET or take a sip.",
     "Everyone holding their phone in their hand right now drink.",
     "Drink for every ex.",
@@ -32,11 +32,8 @@
     "Drink if you have a cracked phone screen",
     "Show the last pic in your camera roll or drink",
     "If you smoke take a sip",
-    "Drink if you mixed wine with 7-UP today",
-    "Drink if you're sober, shoutout Keanan",
     "If you have facial hair take a sip",
     "If you're a blind bitch take a sip",
-    "$TARGET Shake ur ass pls pls pls or drink",
     "Imitate $TARGET. First person to guess correctly picks someone to drink",
     "$TARGET can ask you any question. You can either answer truthfully or refuse to answer and drink.",
     "Drink if u think ur hot",
@@ -51,9 +48,7 @@
     "Pick a color, everyone wearing that color must drink.",
     "Everyone wearing $COLOR must drink"
   ],
-  "Standard": [],
   "NSFW": [
-    "Everyone with $COLOR underwear drinks"
   ],
   "Custom": []
 }
